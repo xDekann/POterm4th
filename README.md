@@ -28,10 +28,17 @@ Klasa posiada następujące pola prywatne:
 Implementacja klasy Set powinna mieć również następujące metody:
 
 -Konstruktor z parametrem określającym pojemność, który przydziela pamięć dla tablicy obiektów oraz ustala wartości pozostałych pól klasy. (1 pkt)
+  
 -dodajElement - metoda, która przyjmuje dokładnie jeden element, który zostanie dodany do zbioru w przypadku, gdy nie występuje już w zbiorze. W przypadku gdy zbiór jest już pełny powinien zostać rzucony wyjątek, obsłużony poza metodą (w miejscu wywołania metody dodajElement). Nowo dodane obiekty powinny być zapisane na odpowiednim miejscu tablicy (zbiór ma być posortowany). (1 pkt)
+  
 -szukaj - metoda, wywoływana z jednym parametrem, określającym szukany obiekt, natomiast wynikiem pozycja podanego obiektu w tablicy (licząc od 0) lub -1, gdy obiekt nie występuje w zbiorze (zamiast zwracać wartość -1, można rzucić wyjątkiem). (1 pkt)
+  
 -metodę toString, która wypisuje informacje o zbiorze, w tym jego rozmiar, pojemność oraz listę przechowywanych elementów. (1 pkt)
+  
 -Metodę ,,usunElement'', która usuwa podany jako parametr element, jeżeli znajduje się on w zbiorze. (1 pkt) 
+  
 -Metodę ,,dodajElementy'', która dodaje elementy dwóch zbiorów, tworząc nowy zbiór składający się z elementów z obu zbiorów.  (1 pkt)
+  
 -Metodę ,,OdejmijElementy'', która odejmuje elementy z pierwszego zbioru, występujące w zbiorze drugim.  (1 pkt)
+  
 -Metodę ,,przecięcie'', która będzie tworzyć zbiór składający się z liczb, które występują w obu zbiorach. (1 pkt) 
